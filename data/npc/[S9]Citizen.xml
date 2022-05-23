@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="[S9]Citizen" script="sagi/[S9]Citizen.lua" acces="6" walkinterval="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="626" head="20" body="39" legs="45" feet="7" addons="0"/>
+</npc>

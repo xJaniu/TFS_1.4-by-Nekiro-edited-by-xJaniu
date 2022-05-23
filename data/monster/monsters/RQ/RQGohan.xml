@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Release Gohan" nameDescription="an Release Gohan" race="blood" experience="0" speed="800" manacost="310">
+	<health now="1500000" max="1500000" />
+	<look type="584" corpse="6081" />
+	<targetchange interval="2000" chance="50" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="500" min="-12500" max="-25000" />
+	</attacks>
+	<defenses armor="10" defense="10" />
+	<elements>
+		<element energyPercent="20" />
+		<element holyPercent="20" />
+		<element earthPercent="-10" />
+		<element deathPercent="-10" />
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="There's a lot more out there that I want to protect!" />
+		<voice sentence="This is all thanks to your training, Piccolo!" />
+	</voices>
+	<loot>
+		<item name="zeni" countmax="25" chance="25050" />
+	</loot>
+</monster>

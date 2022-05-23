@@ -1,0 +1,33 @@
+	function onGetFormulaValues(player, level, magicLevel)
+		local formula = (player:getEffectiveSkillLevel(SKILL_FISHING))/100
+		local min = ((level * 70) * (magicLevel / 95) * formula)*1.10
+		local max = ((level * 80) * (magicLevel / 105) * formula)*1.10
+		return -min, -max
+	end
+
+	combat0:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
+	
+	function onGetFormulaValues(player, level, magicLevel)
+		local formula = (player:getEffectiveSkillLevel(SKILL_FISHING))/100
+		local min = ((level * 70) * (magicLevel / 95) * formula)*1.10
+		local max = ((level * 80) * (magicLevel / 105) * formula)*1.10
+		return -min, -max
+	end
+	
+	combat1:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
+	
+	function onGetFormulaValues(player, level, magicLevel)
+		local formula = (player:getEffectiveSkillLevel(SKILL_FISHING))/100
+		local min = ((level * 70) * (magicLevel / 95) * formula)*1.10
+		local max = ((level * 80) * (magicLevel / 105) * formula)*1.10
+		return -min, -max
+	end
+	
+	combat2:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
+	
+	function onGetFormulaValues(player, level, magicLevel)
+		local formula = (player:getEffectiveSkillLevel(SKILL_FISHING))/100
+		local min = ((level * 70) * (magicLevel / 95) * formula)*1.10
+		local max = ((level * 80) * (magicLevel / 105) * formula)*1.10
+		return -min, -max
+	end

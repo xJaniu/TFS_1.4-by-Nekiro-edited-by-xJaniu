@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
+	<globalevent type="record" name="PlayerRecord" script="record.lua" />
+	<globalevent name="Server Save" time="09:55:00" script="serversave.lua" />
+	
+	<globalevent name="Resp1" time="17:00:00" script="Smoki.lua" />
+	<globalevent name="Resp2" time="19:00:00" script="Smoki.lua" />
+	<globalevent name="Resp3" time="21:00:00" script="Smoki.lua" />
+	<globalevent name="Resp4" time="23:00:00" script="Smoki.lua" />
+
+
+	<!-- 10:00 == 11:00naszego czasu
+	<globalevent name="timer_example" time="12:00:00" script="my_script.lua" />
+
+	-->
+	<!--
+	<globalevent name="TransformEffects" interval="2" event="script" value="TransformEffects.lua"/>
+	-->
+</globalevents>

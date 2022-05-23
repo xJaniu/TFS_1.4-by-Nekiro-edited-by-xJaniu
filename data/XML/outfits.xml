@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outfits>
+	<!-- Female outfits -->
+	<outfit type="0" looktype="128" name="Citizen" premium="no" unlocked="yes" enabled="no" />
+
+	<!-- Male outfits	<outfit type="1" looktype="804" name="Goku" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="805" name="Brolly" premium="no" unlocked="yes" enabled="yes" /> -->
+	<outfit type="1" looktype="128" name="Citizen" premium="no" unlocked="yes" enabled="no" />
+
+</outfits>

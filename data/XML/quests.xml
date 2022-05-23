@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+	<!--
+	<quest name="SAGI [S1-S?!]" startstorageid="30500" startstoragevalue="-1" ignoreendvalue="false">
+		<mission name="Dragon Ball: Reborn Saga[S1 - S13]" storageid="30500" startvalue="-1" endvalue="14">	
+			<missionstate id="1" description="[S1] Find dragon ball four star!" />
+			<missionstate id="2" description="[S2] Fight with weird fast car!" />
+			<missionstate id="3" description="[S3] Talk with Bulma about Dragon Balls!" />
+			<missionstate id="4" description="[S4] Fight with Pterodactyl and save Bulma!" />
+			<missionstate id="5" description="[S5] Fight with Pandorian Boss to continue travel!" />
+			<missionstate id="6" description="[S6] Talk With Umigame!" />
+			<missionstate id="7" description="[S7] Go with Umigame and Master Roshi to Kame Island!" />
+			<missionstate id="8" description="[S8] Bring Master Roshi Playboy!" />
+			<missionstate id="9" description="[S9] Go to Aru Village and talk with citizens about dangerous!" />
+			<missionstate id="10" description="[S10] Fight With Oolong Demon Form!" />
+			<missionstate id="11" description="[S11] Back to Aru Village i powiedz ze zajebales chuja!" />
+			<missionstate id="12" description="[S12] Fight with Yamcha on Desert!" />
+			<missionstate id="13" description="[S13] Go to Fire Mountain talk with Ox-King and puts the fire out with the Wave!" />
+			<missionstate id="14" description="[S14] Fight with Pilaf Gang!" />
+		</mission>		
+		<mission name="Dragon Ball: Z[S15 - S99]" storageid="30500" startvalue="-1" endvalue="99">	
+			<missionstate id="15" description="[S15] dosmth!" />
+			<missionstate id="16" description="[S16] dosmth!" />
+			<missionstate id="17" description="[S17] dosmth!" />
+			<missionstate id="18" description="[S18] dosmth!" />
+		</mission>	
+	</quest>
+	-->
+</quests>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsters>
+	<monster name="Rabbit" file="monsters/rabbit.xml" />
+	<monster name="Wolf" file="monsters/wolf.xml" />
+	<monster name="Pig" file="monsters/pig.xml" />
+	<monster name="Dino" file="monsters/dino.xml" />	
+	<monster name="Tyranosaur" file="monsters/tyranosaur.xml" />
+	<monster name="Dinosaur" file="monsters/dinosaur.xml" />		
+	<monster name="Red Tiger" file="monsters/red tiger.xml" />	
+	<monster name="Mummy" file="monsters/mummy.xml" />	
+	<monster name="Bandit Shooter" file="monsters/bandit shooter.xml"/>	
+	<monster name="Bandit Fighter" file="monsters/bandit fighter.xml"/>	
+	<monster name="Fighter" file="monsters/fighter.xml"/>	
+	<monster name="Black Fighter" file="monsters/black fighter.xml"/>	
+	<monster name="Big Fighter" file="monsters/big fighter.xml"/>	
+	<monster name="Big Bandit" file="monsters/big bandit.xml"/>	
+					
+	
+	
+	<monster name="Kula" file="monsters/Kula.xml"/>
+	<monster name="Training Bag" file="monsters/Training Bag.xml"/>
+	<!--Bosses-->
+	<monster name="[BOSS] Ryan Shenron" file="monsters/Bosses/Smok1.xml"/>	
+	<monster name="[BOSS] Uu Shenron" file="monsters/Bosses/Smok2.xml"/>	
+	<monster name="[BOSS] Ryuu Shenron" file="monsters/Bosses/Smok3.xml"/>	
+	<monster name="[BOSS] Chi Shenron" file="monsters/Bosses/Smok4.xml"/>	
+	<monster name="[BOSS] Suu Shenron" file="monsters/Bosses/Smok5.xml"/>	
+	<monster name="[BOSS] San Shenron" file="monsters/Bosses/Smok6.xml"/>	
+	<monster name="[BOSS] Omega Shenron" file="monsters/Bosses/Smok7.xml"/>	
+	
+	<!--BusterQuest-->
+	<monster name="[Buster]Goku" file="monsters/Quests/GokuBuster.xml"/>	
+	<!--RQ QUest -->
+	<monster name="Release Goku" file="monsters/RQ/RQGoku.xml"/>	
+	<monster name="Release Vegeta" file="monsters/RQ/RQVegeta.xml"/>	
+	<monster name="Release Gohan" file="monsters/RQ/RQGohan.xml"/>	
+	<monster name="Release Trunks" file="monsters/RQ/RQTrunks.xml"/>	
+	
+	<!--Saga -->
+	<monster name="[S2]Car" file="monsters/Sagi/[S2]Car.xml"/>		
+	<monster name="[S4]Pterodactyl" file="monsters/Sagi/[S4]Pterodactyl.xml"/>		
+	<monster name="[S5]Pandorian Boss" file="monsters/Sagi/[S5]Pandorian Boss.xml"/>		
+	<monster name="[S10]Oolong Demon Form" file="monsters/Sagi/[S10]Oolong Demon Form.xml"/>	
+	<monster name="[S11]Yamcha" file="monsters/Sagi/[S11]Yamcha.xml"/>		
+	<monster name="[S12]Fire" file="monsters/Sagi/[S12]Fire.xml"/>		
+	<monster name="[S14]Pilaf" file="monsters/Sagi/[S14]Pilaf.xml"/>	
+	<monster name="[S14]Mai" file="monsters/Sagi/[S14]Mai.xml"/>	
+	<monster name="[S14]Shu" file="monsters/Sagi/[S14]Shu.xml"/>		
+</monsters>

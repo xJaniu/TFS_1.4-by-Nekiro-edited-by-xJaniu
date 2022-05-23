@@ -1,0 +1,537 @@
+<?xml version="1.0"?>
+<spawns>
+	<spawn centerx="1619" centery="999" centerz="3" radius="1">
+		<monster name="[Buster]Goku" x="0" y="0" z="3" spawntime="60" />
+		<monster name="[Buster]Goku" x="1" y="0" z="3" spawntime="60" />
+	</spawn>
+	<spawn centerx="1621" centery="999" centerz="3" radius="1">
+		<monster name="[Buster]Goku" x="0" y="0" z="3" spawntime="60" />
+	</spawn>
+	<spawn centerx="999" centery="1032" centerz="5" radius="1">
+		<monster name="Big Fighter" x="0" y="0" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="1020" centery="1033" centerz="5" radius="1">
+		<monster name="Big Bandit" x="0" y="0" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="999" centery="1035" centerz="5" radius="1">
+		<monster name="Big Bandit" x="0" y="0" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="1024" centery="1035" centerz="5" radius="1">
+		<monster name="Big Fighter" x="0" y="0" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="978" centery="999" centerz="6" radius="1">
+		<monster name="[S4]Pterodactyl" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="974" centery="1003" centerz="6" radius="1">
+		<monster name="Wolf" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="977" centery="1005" centerz="6" radius="1">
+		<monster name="Wolf" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="938" centery="1007" centerz="6" radius="1">
+		<monster name="Tyranosaur" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="942" centery="1008" centerz="6" radius="1">
+		<monster name="Dinosaur" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="978" centery="1008" centerz="6" radius="1">
+		<monster name="Wolf" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="947" centery="1011" centerz="6" radius="1">
+		<monster name="Dinosaur" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="980" centery="1013" centerz="6" radius="1">
+		<monster name="Dino" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="646" centery="1016" centerz="6" radius="1">
+		<npc name="Traveler" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="982" centery="1016" centerz="6" radius="1">
+		<monster name="Pig" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="986" centery="1016" centerz="6" radius="1">
+		<monster name="Wolf" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="984" centery="1029" centerz="6" radius="1">
+		<monster name="Fighter" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="965" centery="1030" centerz="6" radius="1">
+		<monster name="[S5]Pandorian Boss" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1007" centery="1030" centerz="6" radius="1">
+		<monster name="Red Tiger" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="972" centery="1031" centerz="6" radius="1">
+		<monster name="Fighter" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1012" centery="1032" centerz="6" radius="1">
+		<monster name="Black Fighter" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1008" centery="1036" centerz="6" radius="1">
+		<monster name="Fighter" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1013" centery="1039" centerz="6" radius="1">
+		<monster name="Red Tiger" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1021" centery="1042" centerz="6" radius="1">
+		<monster name="Fighter" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1019" centery="1052" centerz="6" radius="1">
+		<monster name="Red Tiger" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="970" centery="1069" centerz="6" radius="1">
+		<npc name="[S13]Ox-King" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="974" centery="1069" centerz="6" radius="1">
+		<monster name="[S12]Fire" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1362" centery="651" centerz="7" radius="1">
+		<npc name="Traveler" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="988" centery="663" centerz="7" radius="1">
+		<npc name="Traveler" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="651" centery="781" centerz="7" radius="1">
+		<npc name="Traveler" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="884" centery="957" centerz="7" radius="1">
+		<npc name="[S7][S8]Master Roshi" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="982" centery="962" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="887" centery="963" centerz="7" radius="1">
+		<npc name="Umigame" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="973" centery="963" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1096" centery="968" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1081" centery="970" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="978" centery="971" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1097" centery="972" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1068" centery="973" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1063" centery="975" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1048" centery="977" centerz="7" radius="1">
+		<monster name="[S11]Yamcha" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="976" centery="978" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1102" centery="979" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="987" centery="983" centerz="7" radius="1">
+		<monster name="[S2]Car" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1077" centery="984" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1102" centery="985" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1061" centery="986" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1072" centery="989" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1105" centery="989" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1093" centery="990" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1005" centery="993" centerz="7" radius="1">
+		<npc name="Traveler" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1058" centery="996" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1062" centery="999" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1104" centery="1004" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="968" centery="1005" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1049" centery="1005" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="959" centery="1007" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="956" centery="1011" centerz="7" radius="1">
+		<monster name="Dino" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1495" centery="1011" centerz="7" radius="1">
+		<npc name="Traveler" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1072" centery="1013" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="963" centery="1015" centerz="7" radius="1">
+		<monster name="Dino" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="953" centery="1016" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1104" centery="1016" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="957" centery="1017" centerz="7" radius="10">
+		<monster name="Black Fighter" x="8" y="6" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1014" centery="1018" centerz="7" radius="1">
+		<monster name="Pig" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1031" centery="1019" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="972" centery="1021" centerz="7" radius="1">
+		<monster name="Bandit Shooter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1011" centery="1023" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="941" centery="1024" centerz="7" radius="1">
+		<npc name="[S6]Umigame" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1018" centery="1024" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1077" centery="1024" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="945" centery="1026" centerz="7" radius="1">
+		<monster name="Black Fighter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1081" centery="1027" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1098" centery="1027" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="965" centery="1030" centerz="7" radius="1">
+		<monster name="Bandit Shooter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="971" centery="1030" centerz="7" radius="1">
+		<monster name="Black Fighter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="985" centery="1030" centerz="7" radius="1">
+		<monster name="Bandit Shooter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="949" centery="1031" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="956" centery="1031" centerz="7" radius="1">
+		<monster name="Black Fighter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="974" centery="1031" centerz="7" radius="1">
+		<monster name="Bandit Shooter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="924" centery="1033" centerz="7" radius="1">
+		<npc name="Umigame" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="943" centery="1034" centerz="7" radius="1">
+		<monster name="Bandit Fighter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="980" centery="1034" centerz="7" radius="1">
+		<monster name="Black Fighter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="954" centery="1036" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1064" centery="1036" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1086" centery="1037" centerz="7" radius="1">
+		<monster name="Mummy" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="932" centery="1038" centerz="7" radius="1">
+		<monster name="Fighter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="948" centery="1040" centerz="7" radius="1">
+		<monster name="Bandit Fighter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="957" centery="1041" centerz="7" radius="1">
+		<monster name="Bandit Fighter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="941" centery="1043" centerz="7" radius="1">
+		<monster name="Fighter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="968" centery="1043" centerz="7" radius="1">
+		<monster name="Bandit Fighter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="977" centery="1043" centerz="7" radius="1">
+		<monster name="Bandit Shooter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="338" centery="1044" centerz="7" radius="1">
+		<npc name="Traveler" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="996" centery="1044" centerz="7" radius="1">
+		<monster name="Dino" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1004" centery="1044" centerz="7" radius="1">
+		<monster name="Pig" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="962" centery="1046" centerz="7" radius="1">
+		<monster name="Bandit Fighter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="923" centery="1047" centerz="7" radius="1">
+		<npc name="[S9]Citizen" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="942" centery="1048" centerz="7" radius="1">
+		<monster name="Fighter" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="955" centery="1049" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="995" centery="1049" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="938" centery="1057" centerz="7" radius="1">
+		<monster name="[S10]Oolong Demon Form" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="961" centery="1073" centerz="7" radius="1">
+		<monster name="[S14]Mai" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="963" centery="1074" centerz="7" radius="1">
+		<monster name="[S14]Pilaf" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="961" centery="1075" centerz="7" radius="1">
+		<monster name="[S14]Shu" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1180" centery="1194" centerz="7" radius="1">
+		<npc name="Traveler" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="887" centery="1243" centerz="7" radius="1">
+		<npc name="Traveler" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="517" centery="1282" centerz="7" radius="1">
+		<npc name="Traveler" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1011" centery="983" centerz="8" radius="5">
+		<monster name="Wolf" x="0" y="-3" z="8" spawntime="60" />
+		<monster name="Wolf" x="2" y="-3" z="8" spawntime="60" />
+		<monster name="Wolf" x="-2" y="-2" z="8" spawntime="60" />
+		<monster name="Wolf" x="2" y="0" z="8" spawntime="60" />
+		<monster name="Wolf" x="-3" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1026" centery="988" centerz="8" radius="5">
+		<monster name="Wolf" x="0" y="-2" z="8" spawntime="60" />
+		<monster name="Wolf" x="3" y="0" z="8" spawntime="60" />
+		<monster name="Wolf" x="-1" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1009" centery="996" centerz="8" radius="5">
+		<monster name="Wolf" x="1" y="-1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="990" centery="1001" centerz="8" radius="5">
+		<monster name="Wolf" x="-3" y="-1" z="8" spawntime="60" />
+		<monster name="Wolf" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Wolf" x="-2" y="1" z="8" spawntime="60" />
+		<monster name="Wolf" x="2" y="3" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1016" centery="1004" centerz="8" radius="1">
+		<monster name="Wolf" x="0" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1014" centery="1007" centerz="8" radius="1">
+		<monster name="Wolf" x="0" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1002" centery="1009" centerz="8" radius="1">
+		<monster name="Wolf" x="0" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1005" centery="1011" centerz="8" radius="1">
+		<monster name="Wolf" x="0" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="980" centery="1016" centerz="8" radius="5">
+		<monster name="Wolf" x="-2" y="0" z="8" spawntime="60" />
+		<monster name="Wolf" x="-1" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1079" centery="994" centerz="9" radius="1">
+		<monster name="Release Goku" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1082" centery="994" centerz="9" radius="1">
+		<monster name="Release Goku" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1084" centery="994" centerz="9" radius="1">
+		<monster name="Release Vegeta" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1087" centery="994" centerz="9" radius="1">
+		<monster name="Release Vegeta" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1089" centery="994" centerz="9" radius="1">
+		<monster name="Release Gohan" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1092" centery="994" centerz="9" radius="1">
+		<monster name="Release Gohan" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1094" centery="994" centerz="9" radius="1">
+		<monster name="Release Trunks" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1097" centery="995" centerz="9" radius="1">
+		<monster name="Release Trunks" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1095" centery="997" centerz="9" radius="1">
+		<monster name="Release Trunks" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1097" centery="997" centerz="9" radius="1">
+		<monster name="Release Trunks" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1079" centery="998" centerz="9" radius="1">
+		<monster name="Release Goku" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1082" centery="998" centerz="9" radius="1">
+		<monster name="Release Goku" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1084" centery="998" centerz="9" radius="1">
+		<monster name="Release Vegeta" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1087" centery="998" centerz="9" radius="1">
+		<monster name="Release Vegeta" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1089" centery="998" centerz="9" radius="1">
+		<monster name="Release Gohan" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1092" centery="998" centerz="9" radius="1">
+		<monster name="Release Gohan" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1094" centery="1000" centerz="9" radius="1">
+		<monster name="Release Trunks" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1096" centery="1000" centerz="9" radius="1">
+		<monster name="Release Trunks" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1089" centery="1001" centerz="9" radius="1">
+		<monster name="Release Gohan" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1092" centery="1001" centerz="9" radius="1">
+		<monster name="Release Gohan" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1080" centery="1002" centerz="9" radius="1">
+		<monster name="Release Goku" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1082" centery="1002" centerz="9" radius="1">
+		<monster name="Release Goku" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1084" centery="1002" centerz="9" radius="1">
+		<monster name="Release Vegeta" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1087" centery="1002" centerz="9" radius="1">
+		<monster name="Release Vegeta" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1095" centery="1003" centerz="9" radius="1">
+		<monster name="Release Trunks" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1097" centery="1003" centerz="9" radius="1">
+		<monster name="Release Trunks" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1089" centery="1004" centerz="9" radius="1">
+		<monster name="Release Gohan" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1092" centery="1004" centerz="9" radius="1">
+		<monster name="Release Gohan" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1079" centery="1006" centerz="9" radius="1">
+		<monster name="Release Goku" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1081" centery="1006" centerz="9" radius="1">
+		<monster name="Release Goku" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1084" centery="1006" centerz="9" radius="1">
+		<monster name="Release Vegeta" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1087" centery="1006" centerz="9" radius="1">
+		<monster name="Release Vegeta" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1094" centery="1006" centerz="9" radius="1">
+		<monster name="Release Trunks" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1089" centery="1007" centerz="9" radius="1">
+		<monster name="Release Gohan" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1092" centery="1007" centerz="9" radius="1">
+		<monster name="Release Gohan" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1097" centery="1007" centerz="9" radius="1">
+		<monster name="Release Trunks" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1084" centery="1009" centerz="9" radius="1">
+		<monster name="Release Vegeta" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1087" centery="1009" centerz="9" radius="1">
+		<monster name="Release Vegeta" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1089" centery="1009" centerz="9" radius="1">
+		<monster name="Release Gohan" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1092" centery="1009" centerz="9" radius="1">
+		<monster name="Release Gohan" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1095" centery="1009" centerz="9" radius="1">
+		<monster name="Release Trunks" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1080" centery="1010" centerz="9" radius="1">
+		<monster name="Release Goku" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Release Goku" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="966" centery="992" centerz="15" radius="1">
+		<npc name="Reborn" x="1" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="1000" centery="993" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="991" centery="995" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="996" centery="995" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="1004" centery="995" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="1009" centery="995" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="991" centery="1000" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="996" centery="1000" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="1004" centery="1000" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="1009" centery="1000" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="991" centery="1005" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="996" centery="1005" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="1004" centery="1005" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="1009" centery="1005" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="1000" centery="1007" centerz="15" radius="1">
+		<monster name="Training Bag" x="0" y="0" z="15" spawntime="60" />
+	</spawn>
+</spawns>

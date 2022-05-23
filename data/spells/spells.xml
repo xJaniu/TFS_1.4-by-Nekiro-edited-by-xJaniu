@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+
+	<!-- House Spells -->
+	<instant name="House Door List" words="aleta grav" casterTargetOrDirection="1" aggressive="0" script="house/edit_door_list.lua" />
+	<instant name="House Guest List" words="aleta sio" aggressive="0" script="house/edit_guest_list.lua" />
+	<instant name="House Kick" words="alana sio" aggressive="0" playernameparam="1" params="1" script="house/kick.lua" />
+	<instant name="House Subowner List" words="aleta som" aggressive="0" script="house/edit_subowner_list.lua" />
+	
+	
+	<!-- for mobs -->
+	
+	<instant group="attack" name="genki" words="genki" level="350" magiclevel="100" mana="10000" direction="1" cooldown="1000" needlearn="0" script="mobSpells/genki.lua">
+		<vocation name="none" /></instant>
+		
+	<instant group="attack" name="kameMob" words="kameMob" level="350" magiclevel="100" level="800" mana="20000" direction="1" cooldown="1" needlearn="1" script="mobSpells/kameMob.lua">
+		<vocation name="none" /></instant>
+	
+	<instant group="attack" name="targetMob" words="targetMob" level="350" magiclevel="100" mana="10000" premium="0" needtarget="1" range="8" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" needlearn="0" script="mobSpells/targetMob.lua">
+		<vocation name="none" /></instant>
+		
+	<instant group="healing" name="healMob" words="healMob" level="35" mana="160" premium="0" selftarget="1" aggressive="0" cooldown="1000" needlearn="0" script="mobSpells/healmob.lua">
+		<vocation name="none" />
+	</instant>
+	
+	
+	<!-- for all -->
+	<instant name="Transform" name="Transform" words="transform" level="1" mana="0" premium="0" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="forall/transform.lua"></instant>
+	<instant name="Power down" name="Power down" words="power down" level="1" mana="0" premium="0" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="forall/power down.lua"></instant>
+	<instant group="support" name="aura" words="aura" level="1" mana="20" aggressive="0" selftarget="1" cooldown="1000" needlearn="0" script="forall/aura.lua">
+	</instant>
+
+	<instant group="support" name="Strong Haste" words="speed up" level="20" mana="1000" premium="0" aggressive="0" selftarget="1" cooldown="1000" needlearn="0" script="forall/speed up.lua">
+	</instant>
+	
+
+	<instant group="attack" name="Soul Punisher" words="Soul Punisher" magiclevel="90" level="600" mana="20000" direction="1" cooldown="1000" needlearn="1" script="Soul Punisher.lua">
+	</instant>
+	
+	<instant group="attack" name="Buster kamehameha" words="Buster kamehameha" magiclevel="100" level="800" mana="20000" direction="1" cooldown="1000" needlearn="1" script="Buster Kamehameha.lua">
+	</instant>
+
+
+
+	<!-- Runes -->
+	
+	<rune group="healing" name="Healing Rune" id="11396" allowfaruse="1" charges="1" level="1" magiclevel="1" cooldown="1000" aggressive="0" needtarget="1" blocktype="solid" script="runes/healing rune.lua" />
+	<rune group="attack" name="Magic Wall Rune" id="11397" allowfaruse="1" charges="3" level="1" magiclevel="1" cooldown="1000" blocktype="all" script="runes/magic wall rune.lua" />
+	<rune group="support" name="Paralyze Rune" id="11398" allowfaruse="1" charges="1" level="54" magiclevel="18" cooldown="1000" mana="1400" needtarget="1" blocktype="solid" script="runes/paralyze rune.lua"></rune>
+	
+	<!-- Goku -->
+	
+	<instant name="jan-ken" words="jan-ken" level="1" magiclevel="1" mana="5" range="1"  blockwalls="1" cooldown="1000" needtarget="1" script="goku/1jan-ken.lua">
+		<vocation name="Goku" />
+		<vocation name="Goku2" />
+		<vocation name="Goku3" />
+		<vocation name="Goku4" />
+		<vocation name="Goku5" />
+		<vocation name="Goku6" />
+		<vocation name="GokuR1" />
+		<vocation name="GokuR2" />
+		<vocation name="GokuR3" />
+		<vocation name="GokuR4" />
+		<vocation name="GokuBlue" />
+		<vocation name="GokuGreen" />
+		<vocation name="GokuYellow" />
+		<vocation name="GokuRed" />
+		<vocation name="GokuBlack" />
+		
+	</instant>
+	
+	<instant group="attack" name="renzoku energy dan" words="renzoku energy dan" level="30" magiclevel="15" mana="700" range="5" direction="1" blockwalls="1" cooldown="1000" needlearn="0" script="goku/2renzoku energy dan.lua">
+		<vocation name="Goku" />
+		<vocation name="Goku2" />
+		<vocation name="Goku3" />
+		<vocation name="Goku4" />
+		<vocation name="Goku5" />
+		<vocation name="Goku6" />
+		<vocation name="GokuR1" />
+		<vocation name="GokuR2" />
+		<vocation name="GokuR3" />
+		<vocation name="GokuR4" />
+		<vocation name="GokuBlue" />
+		<vocation name="GokuGreen" />
+		<vocation name="GokuYellow" />
+		<vocation name="GokuRed" />
+		<vocation name="GokuBlack" />
+		
+		<vocation name="Dende" />
+		<vocation name="Dende2" />
+		<vocation name="Dende3" />
+		<vocation name="Dende4" />
+		<vocation name="Dende5" />
+		<vocation name="Dende6" />
+		<vocation name="DendeR1" />
+		<vocation name="DendeR2" />
+		<vocation name="DendeR3" />
+		<vocation name="DendeR4" />
+		<vocation name="DendeBlue" />
+		<vocation name="DendeGreen" />
+		<vocation name="DendeYellow" />
+		<vocation name="DendeRed" />
+		<vocation name="DendeBlack" />		
+
+	</instant>
+	
+	<instant group="attack" name="kiai-ho" words="kiai-ho" level="50" magiclevel="25" mana="2000"  cooldown="1000" needlearn="0" script="goku/3kiai-ho.lua">
+		<vocation name="Goku" />
+		<vocation name="Goku2" />
+		<vocation name="Goku3" />
+		<vocation name="Goku4" />
+		<vocation name="Goku5" />
+		<vocation name="Goku6" />
+		<vocation name="GokuR1" />
+		<vocation name="GokuR2" />
+		<vocation name="GokuR3" />
+		<vocation name="GokuR4" />
+		<vocation name="GokuBlue" />
+		<vocation name="GokuGreen" />
+		<vocation name="GokuYellow" />
+		<vocation name="GokuRed" />
+		<vocation name="GokuBlack" />
+	</instant>
+	
+	<instant group="attack" name="Kamehameha" words="kamehameha" level="70" magiclevel="35" mana="3000" direction="1" cooldown="1000" needlearn="0" script="goku/4kamehameha.lua">
+		<vocation name="Goku" />
+		<vocation name="Goku2" />
+		<vocation name="Goku3" />
+		<vocation name="Goku4" />
+		<vocation name="Goku5" />
+		<vocation name="Goku6" />
+		<vocation name="GokuR1" />
+		<vocation name="GokuR2" />
+		<vocation name="GokuR3" />
+		<vocation name="GokuR4" />
+		<vocation name="GokuBlue" />
+		<vocation name="GokuGreen" />
+		<vocation name="GokuYellow" />
+		<vocation name="GokuRed" />
+		<vocation name="GokuBlack" />
+		
+		<vocation name="Gohan" />
+		<vocation name="Gohan2" />
+		<vocation name="Gohan3" />
+		<vocation name="Gohan4" />
+		<vocation name="Gohan5" />
+		<vocation name="Gohan6" />
+		<vocation name="GohanBlue" />
+		<vocation name="GohanGreen" />
+		<vocation name="GohanYellow" />
+		<vocation name="GohanRed" />
+		<vocation name="GohanBlack" />
+		
+		<vocation name="Kuririn1" />
+		<vocation name="Kuririn2" />
+		<vocation name="Kuririn3" />
+		<vocation name="Kuririn4" />
+		<vocation name="Kuririn5" />
+		<vocation name="Kuririn6" />
+		
+		
+	</instant>	
+	
+	<instant group="attack" name="Spirit Bomb" words="spirit bomb" level="90" magiclevel="45" mana="4000" premium="0" needtarget="1" range="8" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" needlearn="0" script="goku/5spirit bomb.lua">
+		<vocation name="Goku" />
+		<vocation name="Goku2" />
+		<vocation name="Goku3" />
+		<vocation name="Goku4" />
+		<vocation name="Goku5" />
+		<vocation name="Goku6" />
+		<vocation name="GokuR1" />
+		<vocation name="GokuR2" />
+		<vocation name="GokuR3" />
+		<vocation name="GokuR4" />
+		<vocation name="GokuBlue" />
+		<vocation name="GokuGreen" />
+		<vocation name="GokuYellow" />
+		<vocation name="GokuRed" />
+		<vocation name="GokuBlack" />
+	</instant>
+	
+	
+	<instant group="attack" name="Furie" words="furie" level="120" magiclevel="60" mana="6000"  cooldown="1000" needlearn="0" script="goku/6furie.lua">
+		<vocation name="Goku" />
+		<vocation name="Goku2" />
+		<vocation name="Goku3" />
+		<vocation name="Goku4" />
+		<vocation name="Goku5" />
+		<vocation name="Goku6" />
+		<vocation name="GokuR1" />
+		<vocation name="GokuR2" />
+		<vocation name="GokuR3" />
+		<vocation name="GokuR4" />
+		<vocation name="GokuBlue" />
+		<vocation name="GokuGreen" />
+		<vocation name="GokuYellow" />
+		<vocation name="GokuRed" />
+		<vocation name="GokuBlack" />
+	</instant>
+	
+	<instant group="attack" name="Super Kamehameha" words="super kamehameha" level="150" magiclevel="75" mana="10000" direction="1" cooldown="1000" needlearn="0" script="goku/7super kamehameha.lua">
+		<vocation name="Goku" />
+		<vocation name="Goku2" />
+		<vocation name="Goku3" />
+		<vocation name="Goku4" />
+		<vocation name="Goku5" />
+		<vocation name="Goku6" />
+		<vocation name="GokuR1" />
+		<vocation name="GokuR2" />
+		<vocation name="GokuR3" />
+		<vocation name="GokuR4" />
+		<vocation name="GokuBlue" />
+		<vocation name="GokuGreen" />
+		<vocation name="GokuYellow" />
+		<vocation name="GokuRed" />
+		<vocation name="GokuBlack" />
+	</instant>		
+
+	<instant group="attack" name="Genki Dama" words="genki dama" level="350" magiclevel="100" mana="10000" direction="1" cooldown="1000" needlearn="0" script="goku/8genki dama.lua">
+		<vocation name="GokuR1" />
+		<vocation name="GokuR2" />
+		<vocation name="GokuR3" />
+		<vocation name="GokuR4" />
+		<vocation name="GokuBlue" />
+		<vocation name="GokuGreen" />
+		<vocation name="GokuYellow" />
+		<vocation name="GokuRed" />
+		<vocation name="GokuBlack" />
+	</instant>	
+
+<!--Vegeta-->
+
+	<instant name="Final Blow" words="final blow" level="5" magiclevel="5" mana="300" range="1"  blockwalls="1" cooldown="1000" needtarget="1" script="vegeta/1final blow.lua">
+		<vocation name="Vegeta" />
+		<vocation name="Vegeta2" />
+		<vocation name="Vegeta3" />
+		<vocation name="Vegeta4" />
+		<vocation name="Vegeta5" />
+		<vocation name="Vegeta6" />
+		<vocation name="VegetaR1" />
+		<vocation name="VegetaR2" />
+		<vocation name="VegetaR3" />
+		<vocation name="VegetaR4" />
+		<vocation name="VegetaBlue" />
+		<vocation name="VegetaGreen" />
+		<vocation name="VegetaYellow" />
+		<vocation name="VegetaRed" />
+		<vocation name="VegetaBlack" />
+
+		
+	</instant>
+	
+	<instant group="attack" name="Lucora Gun" words="lucora gun" level="30" magiclevel="15" mana="700" range="5" direction="1" blockwalls="1" cooldown="1000" needlearn="0" script="vegeta/2lucora gun.lua">
+		<vocation name="Vegeta" />
+		<vocation name="Vegeta2" />
+		<vocation name="Vegeta3" />
+		<vocation name="Vegeta4" />
+		<vocation name="Vegeta5" />
+		<vocation name="Vegeta6" />
+		<vocation name="VegetaR1" />
+		<vocation name="VegetaR2" />
+		<vocation name="VegetaR3" />
+		<vocation name="VegetaR4" />
+		<vocation name="VegetaBlue" />
+		<vocation name="VegetaGreen" />
+		<vocation name="VegetaYellow" />
+		<vocation name="VegetaRed" />
+		<vocation name="VegetaBlack" />
+	</instant>
+	
+	<instant group="attack" name="Super Explosive Wave" words="super explosive wave" level="50" magiclevel="25" mana="2000"  cooldown="1000" needlearn="0" script="vegeta/3super explosive wave.lua">
+		<vocation name="Vegeta" />
+		<vocation name="Vegeta2" />
+		<vocation name="Vegeta3" />
+		<vocation name="Vegeta4" />
+		<vocation name="Vegeta5" />
+		<vocation name="Vegeta6" />
+		<vocation name="VegetaR1" />
+		<vocation name="VegetaR2" />
+		<vocation name="VegetaR3" />
+		<vocation name="VegetaR4" />
+		<vocation name="VegetaBlue" />
+		<vocation name="VegetaGreen" />
+		<vocation name="VegetaYellow" />
+		<vocation name="VegetaRed" />
+		<vocation name="VegetaBlack" />
+		
+		<vocation name="Gohan" />
+		<vocation name="Gohan2" />
+		<vocation name="Gohan3" />
+		<vocation name="Gohan4" />
+		<vocation name="Gohan5" />
+		<vocation name="Gohan6" />
+		<vocation name="GohanBlue" />
+		<vocation name="GohanGreen" />
+		<vocation name="GohanYellow" />
+		<vocation name="GohanRed" />
+		<vocation name="GohanBlack" />
+		
+		<vocation name="Kuririn1" />
+		<vocation name="Kuririn2" />
+		<vocation name="Kuririn3" />
+		<vocation name="Kuririn4" />
+		<vocation name="Kuririn5" />
+		<vocation name="Kuririn6" />
+		
+		
+		
+	</instant>
+	
+	<instant group="attack" name="Galick Gun" words="galick gun" level="70" magiclevel="35" mana="3000" direction="1" cooldown="1000" needlearn="0" script="vegeta/4galick gun.lua">
+		<vocation name="Vegeta" />
+		<vocation name="Vegeta2" />
+		<vocation name="Vegeta3" />
+		<vocation name="Vegeta4" />
+		<vocation name="Vegeta5" />
+		<vocation name="Vegeta6" />
+		<vocation name="VegetaR1" />
+		<vocation name="VegetaR2" />
+		<vocation name="VegetaR3" />
+		<vocation name="VegetaR4" />
+		<vocation name="VegetaBlue" />
+		<vocation name="VegetaGreen" />
+		<vocation name="VegetaYellow" />
+		<vocation name="VegetaRed" />
+		<vocation name="VegetaBlack" />
+		
+	</instant>	
+	
+	<instant group="attack" name="Big Bang Attack" words="big bang attack" level="90" magiclevel="45" mana="4000" premium="0" needtarget="1" range="8" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" needlearn="0" script="vegeta/5big bang attack.lua">
+		<vocation name="Vegeta" />
+		<vocation name="Vegeta2" />
+		<vocation name="Vegeta3" />
+		<vocation name="Vegeta4" />
+		<vocation name="Vegeta5" />
+		<vocation name="Vegeta6" />
+		<vocation name="VegetaR1" />
+		<vocation name="VegetaR2" />
+		<vocation name="VegetaR3" />
+		<vocation name="VegetaR4" />
+		<vocation name="VegetaBlue" />
+		<vocation name="VegetaGreen" />
+		<vocation name="VegetaYellow" />
+		<vocation name="VegetaRed" />
+		<vocation name="VegetaBlack" />
+	</instant>
+	
+	
+	<instant group="attack" name="Final Explosion" words="final explosion" level="120" magiclevel="60" mana="6000"  cooldown="1000" needlearn="0" script="vegeta/6final explosion.lua">
+		<vocation name="Vegeta" />
+		<vocation name="Vegeta2" />
+		<vocation name="Vegeta3" />
+		<vocation name="Vegeta4" />
+		<vocation name="Vegeta5" />
+		<vocation name="Vegeta6" />
+		<vocation name="VegetaR1" />
+		<vocation name="VegetaR2" />
+		<vocation name="VegetaR3" />
+		<vocation name="VegetaR4" />
+		<vocation name="VegetaBlue" />
+		<vocation name="VegetaGreen" />
+		<vocation name="VegetaYellow" />
+		<vocation name="VegetaRed" />
+		<vocation name="VegetaBlack" />
+	</instant>
+	
+	<instant group="attack" name="Final Flash" words="final flash" level="150" magiclevel="75" mana="10000" direction="1" cooldown="1000" needlearn="0" script="vegeta/7final flash.lua">
+		<vocation name="Vegeta" />
+		<vocation name="Vegeta2" />
+		<vocation name="Vegeta3" />
+		<vocation name="Vegeta4" />
+		<vocation name="Vegeta5" />
+		<vocation name="Vegeta6" />
+		<vocation name="VegetaR1" />
+		<vocation name="VegetaR2" />
+		<vocation name="VegetaR3" />
+		<vocation name="VegetaR4" />
+		<vocation name="VegetaBlue" />
+		<vocation name="VegetaGreen" />
+		<vocation name="VegetaYellow" />
+		<vocation name="VegetaRed" />
+		<vocation name="VegetaBlack" />
+	</instant>		
+
+	<instant group="attack" name="Final Shine Attack" words="final shine attack" level="350" magiclevel="100" mana="10000" direction="1" cooldown="1000" needlearn="0" script="vegeta/8final shine attack.lua">
+		<vocation name="VegetaR1" />
+		<vocation name="VegetaR2" />
+		<vocation name="VegetaR3" />
+		<vocation name="VegetaR4" />
+		<vocation name="VegetaBlue" />
+		<vocation name="VegetaGreen" />
+		<vocation name="VegetaYellow" />
+		<vocation name="VegetaRed" />
+		<vocation name="VegetaBlack" />
+	</instant>	
+
+<!--Gohan-->
+
+	<instant name="Impulse Fist" words="impulse fist" level="5" magiclevel="5" mana="300" range="1"  blockwalls="1" cooldown="1000" needtarget="1" script="gohan/1impulse fist.lua">
+		<vocation name="Gohan" />
+		<vocation name="Gohan2" />
+		<vocation name="Gohan3" />
+		<vocation name="Gohan4" />
+		<vocation name="Gohan5" />
+		<vocation name="Gohan6" />
+		<vocation name="GohanR1" />
+		<vocation name="GohanR2" />
+		<vocation name="GohanR3" />
+		<vocation name="GohanR4" />
+		<vocation name="GohanBlue" />
+		<vocation name="GohanGreen" />
+		<vocation name="GohanYellow" />
+		<vocation name="GohanRed" />
+		<vocation name="GohanBlack" />
+
+		
+	</instant>
+	
+	<instant group="attack" name="Gekiretsu Madan" words="gekiretsu madan" level="30" magiclevel="15" mana="700" range="5" direction="1" blockwalls="1" cooldown="1000" needlearn="0" script="gohan/2gekiretsu madan.lua">
+		<vocation name="Gohan" />
+		<vocation name="Gohan2" />
+		<vocation name="Gohan3" />
+		<vocation name="Gohan4" />
+		<vocation name="Gohan5" />
+		<vocation name="Gohan6" />
+		<vocation name="GohanR1" />
+		<vocation name="GohanR2" />
+		<vocation name="GohanR3" />
+		<vocation name="GohanR4" />
+		<vocation name="GohanBlue" />
+		<vocation name="GohanGreen" />
+		<vocation name="GohanYellow" />
+		<vocation name="GohanRed" />
+		<vocation name="GohanBlack" />
+	</instant>
+	
+	<instant group="attack" name="Masendan" words="masendan" level="90" magiclevel="45" mana="4000" premium="0" needtarget="1" range="8" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" needlearn="0" script="gohan/5masendan.lua">
+		<vocation name="Gohan" />
+		<vocation name="Gohan2" />
+		<vocation name="Gohan3" />
+		<vocation name="Gohan4" />
+		<vocation name="Gohan5" />
+		<vocation name="Gohan6" />
+		<vocation name="GohanR1" />
+		<vocation name="GohanR2" />
+		<vocation name="GohanR3" />
+		<vocation name="GohanR4" />
+		<vocation name="GohanBlue" />
+		<vocation name="GohanGreen" />
+		<vocation name="GohanYellow" />
+		<vocation name="GohanRed" />
+		<vocation name="GohanBlack" />
+	</instant>
+	
+	
+	<instant group="attack" name="Hidden Potential" words="hidden potential" level="120" magiclevel="60" mana="6000"  cooldown="1000" needlearn="0" script="gohan/6hidden potential.lua">
+		<vocation name="Gohan" />
+		<vocation name="Gohan2" />
+		<vocation name="Gohan3" />
+		<vocation name="Gohan4" />
+		<vocation name="Gohan5" />
+		<vocation name="Gohan6" />
+		<vocation name="GohanR1" />
+		<vocation name="GohanR2" />
+		<vocation name="GohanR3" />
+		<vocation name="GohanR4" />
+		<vocation name="GohanBlue" />
+		<vocation name="GohanGreen" />
+		<vocation name="GohanYellow" />
+		<vocation name="GohanRed" />
+		<vocation name="GohanBlack" />
+	</instant>
+	
+	<instant group="attack" name="Masenko" words="masenko" level="150" magiclevel="75" mana="10000" direction="1" cooldown="1000" needlearn="0" script="gohan/7masenko.lua">
+		<vocation name="Gohan" />
+		<vocation name="Gohan2" />
+		<vocation name="Gohan3" />
+		<vocation name="Gohan4" />
+		<vocation name="Gohan5" />
+		<vocation name="Gohan6" />
+		<vocation name="GohanR1" />
+		<vocation name="GohanR2" />
+		<vocation name="GohanR3" />
+		<vocation name="GohanR4" />
+		<vocation name="GohanBlue" />
+		<vocation name="GohanGreen" />
+		<vocation name="GohanYellow" />
+		<vocation name="GohanRed" />
+		<vocation name="GohanBlack" />
+	</instant>		
+
+	<instant group="attack" name="Ultimate Masenko" words="ultimate masenko" level="350" magiclevel="100" mana="10000" direction="1" cooldown="1000" needlearn="0" script="gohan/8ultimate masenko.lua">
+		<vocation name="GohanR1" />
+		<vocation name="GohanR2" />
+		<vocation name="GohanR3" />
+		<vocation name="GohanR4" />
+		<vocation name="GohanBlue" />
+		<vocation name="GohanGreen" />
+		<vocation name="GohanYellow" />
+		<vocation name="GohanRed" />
+		<vocation name="GohanBlack" />
+	</instant>	
+
+<!-- Trunks -->
+
+
+	<instant name="Burning Slash" words="burning slash" level="5" magiclevel="5" mana="300" range="1"  blockwalls="1" cooldown="1000" needtarget="1" script="trunks/1burning slash.lua">
+		<vocation name="Trunks" />
+		<vocation name="Trunks2" />
+		<vocation name="Trunks3" />
+		<vocation name="Trunks4" />
+		<vocation name="Trunks5" />
+		<vocation name="Trunks6" />
+		<vocation name="TrunksR1" />
+		<vocation name="TrunksR2" />
+		<vocation name="TrunksR3" />
+		<vocation name="TrunksR4" />
+		<vocation name="TrunksBlue" />
+		<vocation name="TrunksGreen" />
+		<vocation name="TrunksYellow" />
+		<vocation name="TrunksRed" />
+		<vocation name="TrunksBlack" />
+
+		
+	</instant>
+	
+	<instant group="attack" name="Saiyan Rapid Fire" words="saiyan rapid fire" level="30" magiclevel="15" mana="700" range="5" direction="1" blockwalls="1" cooldown="1000" needlearn="0" script="trunks/2saiyan rapid fire.lua">
+		<vocation name="Trunks" />
+		<vocation name="Trunks2" />
+		<vocation name="Trunks3" />
+		<vocation name="Trunks4" />
+		<vocation name="Trunks5" />
+		<vocation name="Trunks6" />
+		<vocation name="TrunksR1" />
+		<vocation name="TrunksR2" />
+		<vocation name="TrunksR3" />
+		<vocation name="TrunksR4" />
+		<vocation name="TrunksBlue" />
+		<vocation name="TrunksGreen" />
+		<vocation name="TrunksYellow" />
+		<vocation name="TrunksRed" />
+		<vocation name="TrunksBlack" />
+	</instant>
+
+	<instant group="attack" name="Sword Furie" words="sword furie" level="50" magiclevel="25" mana="2000"  cooldown="1000" needlearn="0" script="trunks/3sword furie.lua">
+		<vocation name="Trunks" />
+		<vocation name="Trunks2" />
+		<vocation name="Trunks3" />
+		<vocation name="Trunks4" />
+		<vocation name="Trunks5" />
+		<vocation name="Trunks6" />
+		<vocation name="TrunksR1" />
+		<vocation name="TrunksR2" />
+		<vocation name="TrunksR3" />
+		<vocation name="TrunksR4" />
+		<vocation name="TrunksBlue" />
+		<vocation name="TrunksGreen" />
+		<vocation name="TrunksYellow" />
+		<vocation name="TrunksRed" />
+		<vocation name="TrunksBlack" />
+
+	</instant>
+	
+	<instant group="attack" name="Shining Sword Attack" words="shining sword attack" level="70" magiclevel="35" mana="3000" direction="1" cooldown="1000" needlearn="0" script="trunks/4shining sword attack.lua">
+		<vocation name="Trunks" />
+		<vocation name="Trunks2" />
+		<vocation name="Trunks3" />
+		<vocation name="Trunks4" />
+		<vocation name="Trunks5" />
+		<vocation name="Trunks6" />
+		<vocation name="TrunksR1" />
+		<vocation name="TrunksR2" />
+		<vocation name="TrunksR3" />
+		<vocation name="TrunksR4" />
+		<vocation name="TrunksBlue" />
+		<vocation name="TrunksGreen" />
+		<vocation name="TrunksYellow" />
+		<vocation name="TrunksRed" />
+		<vocation name="TrunksBlack" />
+		
+	</instant>	
+
+	
+	<instant group="attack" name="Burning Attack" words="burning attack" level="90" magiclevel="45" mana="4000" premium="0" needtarget="1" range="8" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" needlearn="0" script="trunks/5burning attack.lua">
+		<vocation name="Trunks" />
+		<vocation name="Trunks2" />
+		<vocation name="Trunks3" />
+		<vocation name="Trunks4" />
+		<vocation name="Trunks5" />
+		<vocation name="Trunks6" />
+		<vocation name="TrunksR1" />
+		<vocation name="TrunksR2" />
+		<vocation name="TrunksR3" />
+		<vocation name="TrunksR4" />
+		<vocation name="TrunksBlue" />
+		<vocation name="TrunksGreen" />
+		<vocation name="TrunksYellow" />
+		<vocation name="TrunksRed" />
+		<vocation name="TrunksBlack" />
+	</instant>
+	
+	
+	<instant group="attack" name="Burning Heart" words="burning heart" level="120" magiclevel="60" mana="6000"  cooldown="1000" needlearn="0" script="trunks/6burning heart.lua">
+		<vocation name="Trunks" />
+		<vocation name="Trunks2" />
+		<vocation name="Trunks3" />
+		<vocation name="Trunks4" />
+		<vocation name="Trunks5" />
+		<vocation name="Trunks6" />
+		<vocation name="TrunksR1" />
+		<vocation name="TrunksR2" />
+		<vocation name="TrunksR3" />
+		<vocation name="TrunksR4" />
+		<vocation name="TrunksBlue" />
+		<vocation name="TrunksGreen" />
+		<vocation name="TrunksYellow" />
+		<vocation name="TrunksRed" />
+		<vocation name="TrunksBlack" />
+	</instant>
+	
+	<instant group="attack" name="Flash Bang" words="flash bang" level="150" magiclevel="75" mana="10000" direction="1" cooldown="1000" needlearn="0" script="trunks/7flash bang.lua">
+		<vocation name="Trunks" />
+		<vocation name="Trunks2" />
+		<vocation name="Trunks3" />
+		<vocation name="Trunks4" />
+		<vocation name="Trunks5" />
+		<vocation name="Trunks6" />
+		<vocation name="TrunksR1" />
+		<vocation name="TrunksR2" />
+		<vocation name="TrunksR3" />
+		<vocation name="TrunksR4" />
+		<vocation name="TrunksBlue" />
+		<vocation name="TrunksGreen" />
+		<vocation name="TrunksYellow" />
+		<vocation name="TrunksRed" />
+		<vocation name="TrunksBlack" />
+	</instant>		
+
+	<instant group="attack" name="Super Buster Cannon" words="super buster cannon" level="350" magiclevel="100" mana="10000" direction="1" cooldown="1000" needlearn="0" script="trunks/8super buster cannon.lua">
+		<vocation name="TrunksR1" />
+		<vocation name="TrunksR2" />
+		<vocation name="TrunksR3" />
+		<vocation name="TrunksR4" />
+		<vocation name="TrunksBlue" />
+		<vocation name="TrunksGreen" />
+		<vocation name="TrunksYellow" />
+		<vocation name="TrunksRed" />
+		<vocation name="TrunksBlack" />
+	</instant>	
+
+<!-- Dende -->
+
+
+	<instant name="mystic attack" words="mystic attack" level="5" magiclevel="5" mana="300" range="1"  blockwalls="1" cooldown="1000" needtarget="1" script="dende/1mystic attack.lua">
+		<vocation name="Dende" />
+		<vocation name="Dende2" />
+		<vocation name="Dende3" />
+		<vocation name="Dende4" />
+		<vocation name="Dende5" />
+		<vocation name="Dende6" />
+		<vocation name="DendeR1" />
+		<vocation name="DendeR2" />
+		<vocation name="DendeR3" />
+		<vocation name="DendeR4" />
+		<vocation name="DendeBlue" />
+		<vocation name="DendeGreen" />
+		<vocation name="DendeYellow" />
+		<vocation name="DendeRed" />
+		<vocation name="DendeBlack" />
+
+		
+	</instant>
+
+	<instant group="attack" name="explosive wave" words="explosive wave" level="50" magiclevel="25" mana="2000"  cooldown="1000" needlearn="0" script="dende/3explosive wave.lua">
+		<vocation name="Dende" />
+		<vocation name="Dende2" />
+		<vocation name="Dende3" />
+		<vocation name="Dende4" />
+		<vocation name="Dende5" />
+		<vocation name="Dende6" />
+		<vocation name="DendeR1" />
+		<vocation name="DendeR2" />
+		<vocation name="DendeR3" />
+		<vocation name="DendeR4" />
+		<vocation name="DendeBlue" />
+		<vocation name="DendeGreen" />
+		<vocation name="DendeYellow" />
+		<vocation name="DendeRed" />
+		<vocation name="DendeBlack" />
+
+	</instant>
+	
+	<instant group="attack" name="demon hand" words="demon hand" level="70" magiclevel="35" mana="3000" direction="1" cooldown="1000" needlearn="0" script="dende/4demon hand.lua">
+		<vocation name="Dende" />
+		<vocation name="Dende2" />
+		<vocation name="Dende3" />
+		<vocation name="Dende4" />
+		<vocation name="Dende5" />
+		<vocation name="Dende6" />
+		<vocation name="DendeR1" />
+		<vocation name="DendeR2" />
+		<vocation name="DendeR3" />
+		<vocation name="DendeR4" />
+		<vocation name="DendeBlue" />
+		<vocation name="DendeGreen" />
+		<vocation name="DendeYellow" />
+		<vocation name="DendeRed" />
+		<vocation name="DendeBlack" />
+		
+		<vocation name="Namek" />
+		<vocation name="Namek2" />
+		<vocation name="Namek3" />
+		<vocation name="Namek4" />
+		<vocation name="Namek5" />
+		<vocation name="Namek6" />
+		<vocation name="NamekR1" />
+		<vocation name="NamekR2" />
+		<vocation name="NamekR3" />
+		<vocation name="NamekR4" />
+		<vocation name="NamekBlue" />
+		<vocation name="NamekGreen" />
+		<vocation name="NamekYellow" />
+		<vocation name="NamekRed" />
+		<vocation name="NamekBlack" />		
+	</instant>	
+
+	
+	<instant group="attack" name="telekinesis" words="telekinesis" level="90" magiclevel="45" mana="4000" premium="0" needtarget="1" range="8" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" needlearn="0" script="dende/5telekinesis.lua">
+		<vocation name="Dende" />
+		<vocation name="Dende2" />
+		<vocation name="Dende3" />
+		<vocation name="Dende4" />
+		<vocation name="Dende5" />
+		<vocation name="Dende6" />
+		<vocation name="DendeR1" />
+		<vocation name="DendeR2" />
+		<vocation name="DendeR3" />
+		<vocation name="DendeR4" />
+		<vocation name="DendeBlue" />
+		<vocation name="DendeGreen" />
+		<vocation name="DendeYellow" />
+		<vocation name="DendeRed" />
+		<vocation name="DendeBlack" />
+	</instant>
+	
+	
+	<instant group="attack" name="magic materialization" words="magic materialization" level="120" magiclevel="60" mana="6000"  cooldown="1000" needlearn="0" script="dende/6magic materialization.lua">
+		<vocation name="Dende" />
+		<vocation name="Dende2" />
+		<vocation name="Dende3" />
+		<vocation name="Dende4" />
+		<vocation name="Dende5" />
+		<vocation name="Dende6" />
+		<vocation name="DendeR1" />
+		<vocation name="DendeR2" />
+		<vocation name="DendeR3" />
+		<vocation name="DendeR4" />
+		<vocation name="DendeBlue" />
+		<vocation name="DendeGreen" />
+		<vocation name="DendeYellow" />
+		<vocation name="DendeRed" />
+		<vocation name="DendeBlack" />
+	</instant>
+	
+	<instant group="attack" name="antenna beam" words="antenna beam" level="150" magiclevel="75" mana="10000" direction="1" cooldown="1000" needlearn="0" script="dende/7antenna beam.lua">
+		<vocation name="Dende" />
+		<vocation name="Dende2" />
+		<vocation name="Dende3" />
+		<vocation name="Dende4" />
+		<vocation name="Dende5" />
+		<vocation name="Dende6" />
+		<vocation name="DendeR1" />
+		<vocation name="DendeR2" />
+		<vocation name="DendeR3" />
+		<vocation name="DendeR4" />
+		<vocation name="DendeBlue" />
+		<vocation name="DendeGreen" />
+		<vocation name="DendeYellow" />
+		<vocation name="DendeRed" />
+		<vocation name="DendeBlack" />
+	</instant>		
+
+	<instant group="attack" name="ki cannon" words="ki cannon" level="350" magiclevel="100" mana="10000" direction="1" cooldown="1000" needlearn="0" script="dende/8ki cannon.lua">
+		<vocation name="DendeR1" />
+		<vocation name="DendeR2" />
+		<vocation name="DendeR3" />
+		<vocation name="DendeR4" />
+		<vocation name="DendeBlue" />
+		<vocation name="DendeGreen" />
+		<vocation name="DendeYellow" />
+		<vocation name="DendeRed" />
+		<vocation name="DendeBlack" />
+	</instant>	
+
+<!-- Namek -->
+
+<!-- Namek -->
+
+
+	<instant name="lift strike" words="lift strike" level="5" magiclevel="5" mana="300" range="1"  blockwalls="1" cooldown="1000" needtarget="1" script="namek/1lift strike.lua">
+		<vocation name="Namek" />
+		<vocation name="Namek2" />
+		<vocation name="Namek3" />
+		<vocation name="Namek4" />
+		<vocation name="Namek5" />
+		<vocation name="Namek6" />
+		<vocation name="NamekR1" />
+		<vocation name="NamekR2" />
+		<vocation name="NamekR3" />
+		<vocation name="NamekR4" />
+		<vocation name="NamekBlue" />
+		<vocation name="NamekGreen" />
+		<vocation name="NamekYellow" />
+		<vocation name="NamekRed" />
+		<vocation name="NamekBlack" />
+
+		
+	</instant>
+
+	<instant group="attack" name="hellzone granade" words="hellzone granade" level="30" magiclevel="15" mana="700" range="5" direction="1" blockwalls="1" cooldown="1000" needlearn="0" script="namek/2hellzone granade.lua">
+		<vocation name="Trunks" />
+		<vocation name="Trunks2" />
+		<vocation name="Trunks3" />
+		<vocation name="Trunks4" />
+		<vocation name="Trunks5" />
+		<vocation name="Trunks6" />
+		<vocation name="TrunksR1" />
+		<vocation name="TrunksR2" />
+		<vocation name="TrunksR3" />
+		<vocation name="TrunksR4" />
+		<vocation name="TrunksBlue" />
+		<vocation name="TrunksGreen" />
+		<vocation name="TrunksYellow" />
+		<vocation name="TrunksRed" />
+		<vocation name="TrunksBlack" />
+	</instant>
+
+	<instant group="attack" name="light granade" words="light granade" level="50" magiclevel="25" mana="2000"  cooldown="1000" needlearn="0" script="namek/3light granade.lua">
+		<vocation name="Namek" />
+		<vocation name="Namek2" />
+		<vocation name="Namek3" />
+		<vocation name="Namek4" />
+		<vocation name="Namek5" />
+		<vocation name="Namek6" />
+		<vocation name="NamekR1" />
+		<vocation name="NamekR2" />
+		<vocation name="NamekR3" />
+		<vocation name="NamekR4" />
+		<vocation name="NamekBlue" />
+		<vocation name="NamekGreen" />
+		<vocation name="NamekYellow" />
+		<vocation name="NamekRed" />
+		<vocation name="NamekBlack" />
+
+	</instant>
+
+	
+	<instant group="attack" name="rapid fire" words="rapid fire" level="90" magiclevel="45" mana="4000" premium="0" needtarget="1" range="8" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" needlearn="0" script="namek/5rapid fire.lua">
+		<vocation name="Namek" />
+		<vocation name="Namek2" />
+		<vocation name="Namek3" />
+		<vocation name="Namek4" />
+		<vocation name="Namek5" />
+		<vocation name="Namek6" />
+		<vocation name="NamekR1" />
+		<vocation name="NamekR2" />
+		<vocation name="NamekR3" />
+		<vocation name="NamekR4" />
+		<vocation name="NamekBlue" />
+		<vocation name="NamekGreen" />
+		<vocation name="NamekYellow" />
+		<vocation name="NamekRed" />
+		<vocation name="NamekBlack" />
+	</instant>
+	
+	
+	<instant group="attack" name="shock wave" words="shock wave" level="120" magiclevel="60" mana="6000"  cooldown="1000" needlearn="0" script="namek/6shock wave.lua">
+		<vocation name="Namek" />
+		<vocation name="Namek2" />
+		<vocation name="Namek3" />
+		<vocation name="Namek4" />
+		<vocation name="Namek5" />
+		<vocation name="Namek6" />
+		<vocation name="NamekR1" />
+		<vocation name="NamekR2" />
+		<vocation name="NamekR3" />
+		<vocation name="NamekR4" />
+		<vocation name="NamekBlue" />
+		<vocation name="NamekGreen" />
+		<vocation name="NamekYellow" />
+		<vocation name="NamekRed" />
+		<vocation name="NamekBlack" />
+	</instant>
+	
+	<instant group="attack" name="makankosappo" words="makankosappo" level="150" magiclevel="75" mana="10000" direction="1" cooldown="1000" needlearn="0" script="namek/7makankosappo.lua">
+		<vocation name="Namek" />
+		<vocation name="Namek2" />
+		<vocation name="Namek3" />
+		<vocation name="Namek4" />
+		<vocation name="Namek5" />
+		<vocation name="Namek6" />
+		<vocation name="NamekR1" />
+		<vocation name="NamekR2" />
+		<vocation name="NamekR3" />
+		<vocation name="NamekR4" />
+		<vocation name="NamekBlue" />
+		<vocation name="NamekGreen" />
+		<vocation name="NamekYellow" />
+		<vocation name="NamekRed" />
+		<vocation name="NamekBlack" />
+	</instant>		
+
+	<instant group="attack" name="super makankosappo" words="super makankosappo" level="350" magiclevel="100" mana="10000" direction="1" cooldown="1000" needlearn="0" script="namek/8super makankosappo.lua">
+		<vocation name="NamekR1" />
+		<vocation name="NamekR2" />
+		<vocation name="NamekR3" />
+		<vocation name="NamekR4" />
+		<vocation name="NamekBlue" />
+		<vocation name="NamekGreen" />
+		<vocation name="NamekYellow" />
+		<vocation name="NamekRed" />
+		<vocation name="NamekBlack" />
+	</instant>	
+
+<!-- Kuririn -->
+	<instant group="attack" name="Double Tsuibikidan" words="double tsuibikidan" level="150" magiclevel="75" mana="10000" direction="1" cooldown="1000" needlearn="0" script="kuririn/7double tsuibikidan.lua">
+		<vocation name="Kuririn1" />
+		<vocation name="Kuririn2" />
+		<vocation name="Kuririn3" />
+		<vocation name="Kuririn4" />
+		<vocation name="Kuririn5" />
+		<vocation name="Kuririn6" />
+	</instant>		
+
+	<instant group="attack" name="Scatther Kamehameha" words="scatther kamehameha" level="350" magiclevel="100" mana="10000" direction="1" cooldown="1000" needlearn="0" script="kuririn/8scatther kamehameha.lua">
+		<vocation name="Kuririn1" />
+		<vocation name="Kuririn2" />
+		<vocation name="Kuririn3" />
+		<vocation name="Kuririn4" />
+		<vocation name="Kuririn5" />
+		<vocation name="Kuririn6" />
+	</instant>	
+
+
+</spells>

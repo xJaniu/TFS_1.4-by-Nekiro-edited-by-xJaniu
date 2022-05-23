@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="[S5]Pandorian Boss" nameDescription="[S5]Pandorian Boss" race="blood" experience="5" speed="1500" manacost="200">
+	<health now="2000000" max="2000000" />
+	<look type="618" />
+	<targetchange interval="4000" chance="0" />
+	<flags>
+		<flag isSaga="1" />
+		<flag isSagaNumber="5" />
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="5" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<script>
+        <event name="SagiMonster"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" min="-50" max="-150" />
+	</attacks>
+	<defenses armor="1" defense="1" />
+	<elements>
+		<element earthPercent="20" />
+		<element holyPercent="20" />
+		<element icePercent="-10" />
+		<element deathPercent="-10" />
+	</elements>
+	<voices interval="1000" chance="10">
+		<voice sentence="Fight me!" />
+	</voices>
+</monster>

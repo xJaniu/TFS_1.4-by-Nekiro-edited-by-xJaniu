@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="[Buster]Goku" nameDescription="[Buster]Goku" race="blood" experience="0" speed="0" manacost="310">
+	<health now="1000000" max="1000000" />
+	<look type="570" corpse="6081" />
+	<targetchange interval="2000" chance="50" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<attacks>
+		<attack name="kameMob" interval="5000" chance="100" min="-100000" max="-200000"></attack>
+		<attack name="melee" interval="250" min="-20000" max="-80000"></attack>
+	</attacks>
+	<defenses armor="10" defense="10">
+
+        <defense name="healMob" interval="250" chance="100" min="1000000" max="1000000">
+        </defense>
+
+	</defenses>
+	<elements>
+		<element energyPercent="20" />
+		<element holyPercent="20" />
+		<element earthPercent="-10" />
+		<element deathPercent="-10" />
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Put your hands to the sky!" />
+		<voice sentence="I need you energy!" />
+	</voices>
+	<loot>
+		<item name="zeni" countmax="25" chance="25050" />
+	</loot>
+</monster>
